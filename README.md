@@ -1,7 +1,7 @@
 # myportfolio
 
 Project Created & Maintained By;
-ADETOYESE MATTHEW A.
+ADETOYESE MATTHEW.
 
 ## Getting Started
 
