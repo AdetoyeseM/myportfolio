@@ -88,7 +88,7 @@ class Introduction extends StatelessWidget {
               ].vStack(),
               RaisedButton(
                 onPressed: () {
-                  launch("https://drive.google.com/file/d/1VFWHERJp4WFyspbeXKpei2L5IxFDCSf1/view?usp=sharing");
+                  launch("https://docs.google.com/document/d/1MmSXyH9pv-JSf7UGtTJg2VpBVj50Kkp87KPMdjJ0JVM/edit?usp=sharing");
                 },
                 child: "Resume".text.make(),
                 color: Colors.purple[50],
