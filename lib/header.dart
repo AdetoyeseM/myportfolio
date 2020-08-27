@@ -79,7 +79,7 @@ class Introduction extends StatelessWidget {
                     .text
                     .white
                     .xl2
-                    .maxLines(8)
+                    .maxLines(10)
                     .make()
                     .w(context.isMobile
                         ? context.screenWidth
