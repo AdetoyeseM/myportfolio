@@ -43676,7 +43676,7 @@ o=L.hB("I'm a full stack Mobile app Developer, with a strong passion for buildin
 s=o.cc$
 o.bs$=$.nu()
 s=s.jF(s,1.5)
-s.r=8
+s.r=10
 s=s.ba()
 o=new V.em(F.aQ(b,!1)).gf9()===C.bm?F.aQ(b,!1).a.a:F.aQ(b,!1).a.a/100*40
 r=t.t
@@ -43716,7 +43716,7 @@ A.Pl.prototype={
 $0:function(){T.fH("https://twitter.com/_Adepto")},
 $S:0}
 A.Pm.prototype={
-$0:function(){T.fH("https:\\github.com/adetoyesematthew")},
+$0:function(){T.fH("https://github.com/AdetoyeseMatthew")},
 $S:0}
 A.Pn.prototype={
 $0:function(){T.fH("https://www.linkedin.com/in/adetoyesematthew/")},
