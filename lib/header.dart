@@ -136,7 +136,7 @@ class SocialAccounts extends StatelessWidget {
       }).make(),
       20.widthBox,
       Icon(AntDesign.github, color: Colors.white).mdClick(() {
-        launch("https:\\github.com/adetoyesematthew");
+        launch("https://github.com/AdetoyeseMatthew");
       }).make(),
       20.widthBox,
       Icon(AntDesign.linkedin_square, color: Colors.white).mdClick(() {
