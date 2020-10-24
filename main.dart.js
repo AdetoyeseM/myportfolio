@@ -43553,7 +43553,7 @@ O.N2.prototype={}
 U.yK.prototype={}
 X.mc.prototype={}
 N.wU.prototype={
-J:function(a,b){var s,r,q=null,p=$.YK(),o=new V.eo(F.aQ(b,!1)).gfa()===C.bm?C.m:C.k,n=M.a0n("some of My Creative Works,\n"),m=M.a0k("Selected Projects."),l=m.cc$
+J:function(a,b){var s,r,q=null,p=$.YK(),o=new V.eo(F.aQ(b,!1)).gfa()===C.bm?C.m:C.k,n=M.a0n("Some of My Creative Works,\n"),m=M.a0k("Selected Projects."),l=m.cc$
 m.bs$=$.YL()
 l=n.BX(H.c([l.ba()],t.ru))
 l.f=2.25
@@ -43563,8 +43563,8 @@ n=n.ba()
 l=t.t
 m=H.c([D.h0(q,new N.dQ("SchoolKia[ Learning Management System]\n \n I designed and implemented a Mobile based Learning Management System for schools with user-base of over 100",q),!1,q,q,q,q,q,new N.KY(),q,q),D.h0(q,new N.dQ("Pegas Diesel[Android & IOS]:\n \n Single Handedly designed and developed a Mobile diesel ordering platform for Pegas Inc. with over 500+ downloads ",q),!1,q,q,q,q,q,new N.KZ(),q,q),D.h0(q,new N.dQ("Virtual SIWES[Web App]: \n\n A Web Plaform deisgned to provide students wit oppurtunity to gain on-the-job Experience, skills Virtually  ",q),!1,q,q,q,q,q,new N.L_(),q,q),D.h0(q,new N.dQ("EssyGold School[Esy Gold School Website]\n \n  A website designed to get all Latest information in and out of Essy Gold Schools",q),!1,q,q,q,q,q,new N.L0(),q,q),D.h0(q,new N.dQ("Interviewer's Mind [Android]: \n\n Proposed, designed, and created an open-source mobile app to provides users, prospective job seekers all necessary tips to a successful job interview",q),!1,q,q,q,q,q,new N.L1(),q,q),new N.dQ("Mobile Learning App (C++): \n\n A Virtual C++ learning App that provides users with both theortical and pratical knowlegde of C++ programming langauge",q),new N.dQ("Python Tutor: \n\n A Virtual Python programming learning App that provides users with both theortical and pratical knowlegde of python programming langauge",q),D.h0(q,new N.dQ("WallPaper Place[Android & IOS]:\n \n Single Handedly designed and developed a Mobile diesel ordering platform for Pegas Inc. with over 500+ downloads ",q),!1,q,q,q,q,q,new N.L2(),q,q),D.h0(q,new N.dQ("Tech News App[Android]: \n\n Proposed, designed, and created an open-source mobile app to enable users gains access to thousands of tech informations, news, updates, forums, meetups",q),!1,q,q,q,q,q,new N.L3(),q,q)],l)
 s=new V.eo(F.aQ(b,!1)).gfa()===C.bm?0.75:0.4
-r=P.di(0,0,1)
-o=T.a6_(H.c([n,new T.b_(20,q,q,q),T.ZO(new E.r2(m,9,190,1e4,!0,r,D.a6C(1e4,s),q))],l),C.db,o,q,C.aW,C.m0,C.t,q,C.kC)
+r=P.di(0,0,3)
+o=T.a6_(H.c([n,new T.b_(20,q,q,q),T.ZO(new E.r2(m,9,200,1e4,!0,r,D.a6C(1e4,s),q))],l),C.db,o,q,C.aW,C.m0,C.t,q,C.kC)
 n=new V.eo(F.aQ(b,!1)).gfa()===C.bm?600:400
 return M.Xj(C.bs,new T.b_(q,n,new T.ds(C.oa,o,q),q),C.U,p,0,q,q,C.e_)}}
 N.KY.prototype={
