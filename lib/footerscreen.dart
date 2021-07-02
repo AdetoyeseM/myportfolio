@@ -14,7 +14,7 @@ class FooterScreen extends StatelessWidget {
           
             mobile: GestureDetector(
               onTap: (){
-                launch('https://forms.gle/RiaKYGPMUcunDgmB7');
+                launch('adetoyesematthew97@gmail.com');
               },
                           child: VStack(
                 [
@@ -28,10 +28,20 @@ class FooterScreen extends StatelessWidget {
                       .box
                       .border(color: Colors.white)
                       .p16
-                      .rounded
-                      
+                      .rounded 
                       .make()
-                      .shimmer()
+                      .shimmer(),
+                      SizedBox(height:10),
+                       "+234 706 757 1842"
+                      .text
+                      .color(Colors.white)
+                      .semiBold
+                      .make()
+                      .box
+                      .border(color: Colors.white)
+                      .p16
+                      .rounded
+                      .make().shimmer()
                 ],
                 crossAlignment: CrossAxisAlignment.center,
               ),
@@ -39,13 +49,24 @@ class FooterScreen extends StatelessWidget {
             web: GestureDetector(
               onTap: ()
               {
-                launch('https://forms.gle/RiaKYGPMUcunDgmB7');
+                launch('adetoyesematthew97@gmail.com');
               },
                           child: HStack(
                 [
                   "Got a Project?\n Let's Talk.".text.color(Colors.white).center.xl2.make(),
                   10.widthBox,
                   "adetoyesematthew97@gmail.com"
+                      .text
+                      .color(Colors.white)
+                      .semiBold
+                      .make()
+                      .box
+                      .border(color: Colors.white)
+                      .p16
+                      .rounded
+                      .make().shimmer(),
+                      SizedBox(height:10),
+                       "+234 706 757 1842"
                       .text
                       .color(Colors.white)
                       .semiBold

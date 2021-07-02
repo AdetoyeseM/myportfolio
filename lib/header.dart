@@ -75,7 +75,7 @@ class Introduction extends StatelessWidget {
               [
                 " - Introduction".text.white.widest.sm.make(),
                 10.heightBox,
-                "I'm a full stack Mobile app Developer, Web developer with a strong passion for building great product with cool UI/UX. Mobile app developer who has a track record of success creating apps that are both well-received and commercially viable."
+                "I'm a Mobile Application Developer, with a strong passion for building great product with cool UI/UX. Mobile app developer who has a track record of success creating apps that are both well-received and commercially viable."
                     .text
                     .white
                     .xl2
@@ -88,13 +88,13 @@ class Introduction extends StatelessWidget {
               ].vStack(),
               RaisedButton(
                 onPressed: () {
-                  launch("https://docs.google.com/document/d/1hoG2gqlJtapxGYkkbjtzYC3BALEqsYWe_0m6f0BBPOQ/edit?usp=sharing");
+                  launch("https://docs.google.com/document/d/19N3pxQhVgfts2uqgOaIjEc7aNYexgXXJ9RBxRVrcy6w/edit?usp=sharing");
                 },
                 child: "Resume".text.make(),
                 color: Colors.purple[50],
                 shape: Vx.roundedSm,
                 hoverColor: Vx.purple700,
-              ).h(50)
+              ).h(50).w(double.infinity),
             ],
             alignment: MainAxisAlignment.spaceEvenly,
           );

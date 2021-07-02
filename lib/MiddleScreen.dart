@@ -10,7 +10,7 @@ class MiddleScreen extends StatelessWidget {
       child: Flex(
         direction: context.isMobile ? Axis.vertical : Axis.horizontal,
         children: [
-          "some of My Creative Works,\n"
+          "Some of My Creative Works,\n"
               .richText
               .withTextSpanChildren(
                   ["Selected Projects.".textSpan.yellow400.make()])
@@ -21,6 +21,21 @@ class MiddleScreen extends StatelessWidget {
           Expanded(
               child: VxSwiper(
             items: [
+              GestureDetector(
+                  onTap: () => launch(
+                      'https://play.google.com/store/apps/details?id=com.esusu_africa.fieldcollectors'),
+                  child: ProjectWidget(
+                      title:
+                          "Esusu Field collectors \n \n A platform to digitize thrift savings and collections seamlessly; an app that promotes a secured online and mobile digital banking experience")),
+              //
+
+              GestureDetector(
+                  onTap: () => launch(
+                      'https://play.google.com/store/apps/details?id=com.esusupay.savebeta'),
+                  child: ProjectWidget(
+                      title:
+                          "Savebeta: \n\n A Fintech A Payment platform designed to make all financial transactons like Bills Payment, Funds Transfer, Withdrawal Seamless ")),
+
               GestureDetector(
                   onTap: () => launch(
                       'https://play.google.com/store/apps/details?id=com.schoolkia.gracecourt'),
@@ -34,17 +49,11 @@ class MiddleScreen extends StatelessWidget {
                       title:
                           "Pegas Diesel[Android & IOS]:\n \n Single Handedly designed and developed a Mobile diesel ordering platform for Pegas Inc. with over 500+ downloads ")),
               GestureDetector(
-                  onTap: () => launch(
-                      'https://adetoyesematthew.github.io/VirtualSiwes/'),
-                  child: ProjectWidget(
-                      title:
-                          "Virtual SIWES[Web App]: \n\n A Web Plaform deisgned to provide students wit oppurtunity to gain on-the-job Experience, skills Virtually  ")),
-              GestureDetector(
                   onTap: () =>
                       launch('https://adetoyesematthew.github.io/EssyGold/'),
                   child: ProjectWidget(
                       title:
-                          "EssyGold School[Esy Gold School Website]\n \n  A website designed to get all Latest information in and out of Essy Gold Schools")),
+                          "EssyGold School[Essy Gold School Website]\n \n  A website designed to get all Latest information in and out of Essy Gold Schools")),
               GestureDetector(
                   onTap: () => launch(
                       'https://github.com/AdetoyeseMatthew/interviewers_mind'),
@@ -63,17 +72,11 @@ class MiddleScreen extends StatelessWidget {
                   child: ProjectWidget(
                       title:
                           "WallPaper Place[Android & IOS]:\n \n Single Handedly designed and developed a Mobile diesel ordering platform for Pegas Inc. with over 500+ downloads ")),
-              GestureDetector(
-                  onTap: () =>
-                      launch('https://github.com/AdetoyeseMatthew/Iroyin'),
-                  child: ProjectWidget(
-                      title:
-                          "Tech News App[Android]: \n\n Proposed, designed, and created an open-source mobile app to enable users gains access to thousands of tech informations, news, updates, forums, meetups"))
             ],
-            height: 190,
+            height: 200,
             viewportFraction: context.isMobile ? 0.75 : 0.4,
             autoPlay: true,
-            autoPlayAnimationDuration: 1.seconds,
+            autoPlayAnimationDuration: 3.seconds,
           ))
         ],
       ).p8().h(context.isMobile ? 600 : 400),

@@ -14,9 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        primarySwatch: Colors.white,
-        textTheme: GoogleFonts.poppinsTextTheme(),
-        accentColor: Colors.purple,
+        primarySwatch: Colors.purple,
+        textTheme: GoogleFonts.poppinsTextTheme(), 
       ),
       home: HomeScreen(),
     );
