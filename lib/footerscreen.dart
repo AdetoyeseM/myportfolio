@@ -55,17 +55,7 @@ class FooterScreen extends StatelessWidget {
                       .p16
                       .rounded
                       .make().shimmer(),
-                      SizedBox(height:10),
-                       "+234 706 757 1842"
-                      .text
-                      .color(Colors.white)
-                      .semiBold
-                      .make()
-                      .box
-                      .border(color: Colors.white)
-                      .p16
-                      .rounded
-                      .make().shimmer()
+                      
                 ],
                 alignment: MainAxisAlignment.spaceAround,
               ).w(context.safePercentWidth * 70).scale150().p16(),
