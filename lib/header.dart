@@ -120,7 +120,7 @@ class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Icon(
-      AntDesign.codesquare,
+      AntDesign.android,
       size: 50,
       color: Colors.white,
     );
