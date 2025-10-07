@@ -31,5 +31,5 @@ jobs:
         with:
           branch: gh-pages
           folder: build/web
-          clean: true
+          clean: true 
           single-commit: true

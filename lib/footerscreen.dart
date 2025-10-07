@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:myportfolio/constants/app_constants.dart';
 import 'package:flutter/services.dart'; // Import for Clipboard
@@ -79,7 +81,7 @@ class _AnimatedContactButtonState extends State<AnimatedContactButton> {
         onTap: _copyToClipboard,
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 200),
-          decoration: BoxDecoration(
+          decoration: BoxDecoration( 
             border: Border.all(color: Theme.of(context).primaryColor.withOpacity(_isHovering ? 0.8 : 0.5)),
             borderRadius: BorderRadius.circular(8.0),
             color: _isHovering ? Theme.of(context).primaryColor.withOpacity(0.1) : Colors.transparent,
